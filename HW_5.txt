@@ -1,0 +1,66 @@
+ 1. Создать внешний репозиторий c названием TXT.
+	В GitHub > New Repositories
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+	git clone (code)
+ 3. Внутри локального TXT создать файл “new.txt”.
+	cd XML
+	touch new.txt
+ 4. Добавить файл под гит.
+	git add .
+ 5. Закоммитить файл.
+	git commit -m 'add file'
+ 6. Отправить файл на внешний GitHub репозиторий.
+	git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+	cat >> new.txt
+	1.ПІБ - Несук Володимир Миколайович
+	2.Рік - 37 років
+	3.Домашні тварини - 1 рибка
+	4.Зарплата - 1000$
+	Ctrl+C
+ 8. Отправить изменения на внешний репозиторий.
+	git add .
+	git commit -m 'add file'
+	git push
+ 9. Создать файл preferences.txt
+	touch preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+	cat >> preferences.txt
+	Улюблений фільм - Avatar_2
+	Улюблений серіал - Game Of Thrones
+	Улюблена їжа - пельмені
+	Країна - Азія
+	Ctrl+C 
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+	cat >> skills.txt
+Теми:
+	1- GitHub
+	2- GitBash
+	3- Jmeter
+	4- Postman
+	5- JSON
+	6- XML
+	7- SQL
+	8- Scrum
+	Ctrl+C
+ 12. Сделать коммит в одну строку.
+	git add . && git commit -m 'new files'
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+	git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+	В GitHub cliсk [Add file]>[Great new file]
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	В GitHub click [Commit changes]
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+	В GitHub click [Edit this file]
+	Bug_id-1 
+	Title: The SAVE DATA button is smaller than the others
+	Severity: trivial
+	Priority: low
+	Environment: Redmi Note 10Pro, Android 12
+	AR: The application buttons have one view
+	ER: The SAVE DATA button is smaller than the others
+	 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+	В GitHub click [Commit changes]
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+	git pull
